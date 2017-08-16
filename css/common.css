@@ -1,0 +1,52 @@
+body, td, th, p, label, span, input, select, a, ul, ol, h1, h2, h3, h4{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+/***************************************************************************************************** Header CSS */
+#img-header-logo{
+    width: 100%;
+}
+
+#div-header-logo{
+    width: 200px;
+}
+
+#div-header-wrap{
+    overflow-x: hidden;
+    width: inherit;
+    height: inherit;
+    background-color: #fbbc05;
+}
+
+#div-header-wrap > div{
+    float: left;
+}
+
+#img-slide-menu{
+    width: 100%;
+}
+
+#div-open-slide-menu{
+    position: absolute;
+    top: 0;
+    left: 5px;
+    vertical-align: top;
+    padding: 0px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+/***************************************************************************************************** Container CSS */
+.div-contents{
+    display:  block;
+    width: 100%;
+    overflow: hidden;
+    -o-white-space: nowrap; /* Opera */
+    -moz-white-space: normal; /* Firefox */
+    -ms-white-space: nowrap; /* ie */
+    -webkit-white-space: nowrap; /* Firefox */
+}
+
